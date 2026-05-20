@@ -1,3 +1,5 @@
+
+
 :root
 {
 --cor-background: darkblue;
@@ -23,13 +25,18 @@ nav a {
 }
 h1 {
     color: var(--cor-text-título);
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 main img {
+    margin-left: 15px;
+    margin-bottom: 15px;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
@@ -39,13 +46,10 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1em;
-    background-color: #eee;
+    width: 20em;    
     color: #333;
-    text-align: var(--alinação-do-texto)
+    text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -53,8 +57,27 @@ width: 200px;
 height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
 footer {
     border-top: 1px solid #000;
     margin-top: 15px;
     text-align: var(--alinação-do-texto);
 }
+/* "Seletores de Classe" */
+
+.caixa {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1em;
+    margin: 1em;
+    background-color: #eee;
+}
+
+.identacao {
+    padding-left: 2rem;
+}
+    
