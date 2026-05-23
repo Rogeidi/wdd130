@@ -1,0 +1,138 @@
+:root{
+   --azul-escuro: #062B5B;
+   --azul-medio: #0E5EA8;
+   --azul-claro: #4DB7FF;
+   --amarelo: #F4B400;
+   --branco: #FFFFFF;
+   --cinza: #222222;
+   --fondo: #F4F8FC;
+   --font-family-titulos: 'Bebas Neue', sans-serif;
+   --font-family-textos: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fondo);
+    font-family: var(--font-family-textos);
+    color: var(--cinza);
+
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family-titulos);
+    color: var(--azul-escuro);
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 48px;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    margin-bottom: 0;
+    padding: 15px 15px 0 15px;
+}
+
+h2 {
+    font-size: 36px;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    padding: 10px 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.hero img:first-of-type {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.hero h1,
+.hero h2 {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+
+.hero h1 {
+    top: 15px;
+
+}
+
+ .hero h2 { 
+    top: 68px;
+ }
+
+.hero article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.hero article div:not(.fotos-dereita) {
+    flex: 1;
+}
+
+.hero article .fotos-dereita {
+    display: flex;
+    flex-direction: column;
+    width: 320px !important;
+    gap: 24px !important;
+    flex-shrink: 0;
+    /* background-color: transparent; */
+}
+
+.hero article .fotos-dereita img {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    
+   
+}
+
+
