@@ -58,6 +58,22 @@ nav, p, section, article {
 .socialmedia a {
     text-decoration: none;
 }
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+.socialmedia img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    display: block;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -65,7 +81,7 @@ nav, p, section, article {
     border-radius: 12px;
 }
 
-.hero img:first-of-type {
+.hero img {
     position: relative;
     width: 100%;
     height: auto;
@@ -89,43 +105,36 @@ nav, p, section, article {
     text-align: center;
 }
 
-
 .hero article {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
     margin-top: 40px;
-    width: 100%;
+    width: 90%;
     position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--azul-claro);
+    padding: 12px;
+    opacity: 0.7;
+    color: var(--branco);
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.hero article img {
     float: right;
-}
-
-.hero article div:not(.fotos-dereita) {
-    flex: 1;
-}
-
-.hero article .fotos-dereita {
-    display: flex;
-    flex-direction: column;
-    width: 320px !important;
-    gap: 24px !important;
-    flex-shrink: 0;
-    /* background-color: transparent; */
-}
-
-.hero article .fotos-dereita img {
-    float: right;
-    width: 100% !important;
-    max-width: 320px !important;
-    height: auto !important;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
     display: block;
     object-fit: cover;
-    border-radius: 12px !important;
-    overflow: hidden !important;
-    
-   
+    border-radius: 12px;
+    overflow: hidden; 
+
 }
 
 
