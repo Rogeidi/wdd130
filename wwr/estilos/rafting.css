@@ -55,7 +55,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 .hero {
@@ -99,6 +99,7 @@ nav, p, section, article {
     margin-top: 40px;
     width: 100%;
     position: absolute;
+    float: right;
 }
 
 .hero article div:not(.fotos-dereita) {
