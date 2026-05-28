@@ -19,22 +19,28 @@ div {
 .one {
     width: 200px;
     height: 200px;
+   
 }
 
 .flex {
     background-color: #aba;
-    /* escreva declaracoes aqui */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .grid {
     background-color: #abb;
-    /* escreva declaracoes aqui */
+    display: grid;
+    place-items: center;
 
 }
 
 .container2 {
-    /* escreva declaracoes aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
@@ -44,12 +50,14 @@ div {
 }
 
 .container3 {
-    /* escreva declaracoes aqui */
+    display: grid;
+    grid-template-columns: repeat(3, 1 fr);
 
 }
 
 .colunas-3 {
-    /* escreva declaracoes aqui */
+    display: grid;
+    grid-column: span 3;
 
 }
 
