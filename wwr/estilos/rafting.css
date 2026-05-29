@@ -67,14 +67,13 @@ nav ul li a {
 
 h1, h2, h3 {
     font-family: var(--font-family-titulos);
-    color: var(--azul-escuro);
     margin-bottom: 15px;
 }
 
 h1 {
     font-size: 42px;
     background-color: var(--azul-claro);
-    color: var(--azul-escuro);
+    color: var(--branco);
     margin-bottom: 0;
     padding: 15px 15px 0 15px;
 }
