@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #333;
+    background: #f0f0f0;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+
+}
+
+form {
+    width: 650px;
+    margin: 20px auto;
+    padding: 1rem;
+    border: 1px solid #090909;
+    border-radius: 8px;
+    background-color: #c9c7c7;
+    
+}
+
+fieldset {
+    border: 1px solid #929191;
+    margin-bottom: 20px;
+    padding: 20px;
+   
+}
+legend {
+    padding: 0 10px;
+    color: #000080;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.item-formulario {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0.1px;
+}
+
+.navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.animal-de-estimação {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lugares-onde-morou {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.lugares-onde-morou label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(88, 88, 243);
+}
+
+footer {
+    margin: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #585757;
+    /* border-top: 1px solid #ccc; */
+}
+
+.item-formulario {
+    display: grid;
+    align-items: center;
+}
+
+.coluna1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.coluna2 {
+    grid-template-columns: 1fr 2fr;
+}
