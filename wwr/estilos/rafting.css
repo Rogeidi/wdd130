@@ -184,7 +184,7 @@ footer p {
     font-size: 1rem;
 }
 
-.socialmedia {
+.redes-sociais {
     grid-column: 3;
     justify-self: end;
     display: flex;
@@ -194,13 +194,13 @@ footer p {
 }
 
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
     display: block;
 }
 
 
-.socialmedia img {
+.redes-sociais img {
     width: 40px;
     height: 40px;
     object-fit: contain;
@@ -270,4 +270,162 @@ footer p {
 
 }
 
+/* Estilo da pagina contato */
+
+
+.contato {
+    font-family: var(--font-family-titulos);
+    margin-bottom: 15px;
+}
+
+
+.contato {
+    font-size: 42px;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    margin-bottom: 0;
+    padding: 15px 15px 10px 15px;
+    text-align: center;
+}
+
+.equipe {
+    font-family: var(--font-family-titulos);
+    font-size: 36px;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    
+}
+
+.contato-bloco {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+    width: 100%;
+    
+}
+
+.map-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.map-info .map iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.texto-endereco {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+.map-info {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.formulario {
+    flex: 1;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-grupo input, .campo-grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--font-family-textos);
+}
+
+.campo-radio-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-radio {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.proposito-mensagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.campo-checkbox label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--branco);
+    color: var(--cinza);
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-family: var(--font-family-textos);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+
+}
+
+.btn-enviar:hover {
+    background-color: #e8e8e8;
+}
+
+.estamos-aqui-para-servilo {
+    max-width: 840px;
+    margin: 30px auto;
+    display: block;
+
+}
+
+.imagem-empleados  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.imagem figure {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
